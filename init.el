@@ -98,7 +98,6 @@
 (require 'init-ruby-mode)
 (require 'init-rails)
 (require 'init-sql)
-
 (require 'init-paredit)
 (require 'init-lisp)
 (require 'init-slime)
@@ -115,6 +114,7 @@
 (require 'init-dash)
 (require 'init-ledger)
 (require 'init-ace-jump)
+(require 'init-tramp)
 ;; Extra packages which don't require any configuration
 
 (require-package 'gnuplot)

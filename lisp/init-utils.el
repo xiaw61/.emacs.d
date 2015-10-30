@@ -112,6 +112,6 @@
   "creates a shell with a given name"
   (interactive);; "Prompt\n shell name:")
   (let ((shell-name (read-string "shell name: " nil)))
-    (eshell (concat "*" shell-name "*"))))
+    (shell (concat "*" shell-name "*"))))
 
 (provide 'init-utils)
