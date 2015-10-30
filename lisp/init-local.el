@@ -16,5 +16,7 @@
 (global-hl-line-mode t)
 (add-hook 'shell-mode-hook (lambda () (linum-mode -1)))
 (global-set-key (kbd "C-c m") 'toggle-fullscreen)
-
+(global-set-key (kbd "M-h") 'hs-minor-mode)
+(global-set-key (kbd "C-c h") 'hs-hide-block)
+(global-set-key (kbd "C-c s") 'hs-show-block)
 (provide 'init-local)
