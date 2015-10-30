@@ -116,6 +116,7 @@
 (require 'init-ace-jump)
 (require 'init-tramp)
 (require 'init-iy-go-to-char)
+(require 'init-fill-column-indicator)
 ;; Extra packages which don't require any configuration
 
 (require-package 'gnuplot)
