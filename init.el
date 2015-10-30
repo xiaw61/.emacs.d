@@ -115,6 +115,7 @@
 (require 'init-ledger)
 (require 'init-ace-jump)
 (require 'init-tramp)
+(require 'init-iy-go-to-char)
 ;; Extra packages which don't require any configuration
 
 (require-package 'gnuplot)

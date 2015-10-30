@@ -13,5 +13,6 @@
 (global-linum-mode t)
 (setq-default indent-tabs-mode nil)
 (line-number-mode t)
+(global-hl-line-mode t)
 (add-hook 'shell-mode-hook (lambda () (linum-mode -1)))
 (provide 'init-local)
