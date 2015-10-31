@@ -1,3 +1,4 @@
+(require-package 'fill-column-indicator)
 (require 'fill-column-indicator)
 (define-globalized-minor-mode
   global-fill-column-indicator-mode fci-mode (lambda () (fci-mode 1)))

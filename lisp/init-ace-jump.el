@@ -1,3 +1,4 @@
+(require-package 'ace-jump-mode)
 (autoload
   'ace-jump-mode
   "ace-jump-mode"
