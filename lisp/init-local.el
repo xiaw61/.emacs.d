@@ -19,4 +19,5 @@
 (global-set-key (kbd "M-h") 'hs-minor-mode)
 (global-set-key (kbd "C-c h") 'hs-hide-block)
 (global-set-key (kbd "C-c s") 'hs-show-block)
+(setq make-backup-files nil)
 (provide 'init-local)
